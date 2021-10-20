@@ -74,3 +74,4 @@ if __name__ == "__main__":
     students_invoice = (director.total_salary_of_position() + headteacher.total_salary_of_position()
                         + teacher.total_salary_of_position() + cleaner.total_salary_of_position())//students_count
     print(f"Expected invoice from each student is {students_invoice} UAH")
+
